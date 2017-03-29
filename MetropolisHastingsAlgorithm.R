@@ -82,7 +82,7 @@ metropolis <- function(h, X, Y, R, w_pre, beta0_pre, beta_pre, sigma_pre, alpha_
   
   # Stick-breaking construction of the current values
   ww_pre <- NULL
-  ww_pre[1] <- ppi.y1[1]
+  ww_pre[1] <- w_pre[1]
   ww_pre[2:(K-1)] <- sapply(2:(K-1), function(i) w_pre[i] * prod(1 - w_pre[1:(i-1)]))
   ww_pre[K] <- prod(1-w_pre[1:(K-1)])
 
