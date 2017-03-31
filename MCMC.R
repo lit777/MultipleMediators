@@ -406,9 +406,9 @@ for (t in 3:MCMC){
   if(t %in% SEQ){
     for(c in 1:K){
       if( mean(para.m31[(t-51):(t-1),(dim(para.m31)[2]-1*K+c)]) < 0.44 ){
-        cov2.m31[tk,tk] <- cov2.m31[tk,tk]-min(0.01, 1/sqrt(t))
+        cov2.m31[c,c] <- cov2.m31[c,c]-min(0.01, 1/sqrt(t))
       }else{
-        cov2.m31[tk,tk] <- cov2.m31[tk,tk]+min(0.01, 1/sqrt(t)) 
+        cov2.m31[c,c] <- cov2.m31[c,c]+min(0.01, 1/sqrt(t)) 
       }
     }
   }
