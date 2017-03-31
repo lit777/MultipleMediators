@@ -130,8 +130,8 @@ n.iter <- 2000
       
       #----- Construct the correlation matrix
       Cor01 <- matrix(c(1, COR[index0,c(8,9,11,12,13,8)],1,COR[index0,c(14,16,17,18,9,14)],1,COR[index0,c(20,21,22,11,16,20)],1,COR[index0,c(26,27,12,17,21,26)],1,COR[index0,c(28,13,18,22,27,28)],1),6,6,byrow=TRUE)
-      cor.y1m1 <- matrix(c(1,COR[index0,c(1,2,3,1)],1,COR[index0,c(8,9,2,8)],1,COR[index0,c(14,3,9,14)]),4,4,byrow=TRUE)
-      cor.y0m0 <- matrix(c(1,COR[index0,c(23,24,25,23)],1,COR[index0,c(26,27,24,26)],1,COR[index0,c(28,25,27,28)]),4,4,byrow=TRUE)
+      cor.y1m1 <- matrix(c(1,COR[index0,c(1,2,3,1)],1,COR[index0,c(8,9,2,8)],1,COR[index0,c(14,3,9,14)],1),4,4,byrow=TRUE)
+      cor.y0m0 <- matrix(c(1,COR[index0,c(23,24,25,23)],1,COR[index0,c(26,27,24,26)],1,COR[index0,c(28,25,27,28)],1),4,4,byrow=TRUE)
       
       
       #----- mixing parameters
