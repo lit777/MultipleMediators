@@ -1,10 +1,11 @@
 # To link all different data sources together
-
+``
 'RawData.RData' is the dataset which links EGUs data to monitoring sites data. 
 	This is created by running 'Main_Dataset_Raw.R' script.
     
 'Master.RData' is the main dataset for the analysis which is the reduced version of 'RawData.RData' (i.e., consider uniqueness, averaging over units, complete observations, etc.).
 	This is created by running 'Main_Dataset.R' script
+``
 
 # Explain the linkage strategy
 
@@ -20,19 +21,20 @@ For each power plant, we also obtain the annual average ambient PM2.5 concentrat
     - 'MCMCsamples.RData' includes all posterior samples
 ``
 # Post-processing
-
+``
    - To estimate the causal effects on mediators, run 'Postprocessing_Mediators.R' script.
 
    - To estimate the causal mediation effects, run 'Postprocessing_Effects.R' script.
 
    - To estimate the principal causal effects, run 'Postprocessing_PS.R' script.
-
+``
 
 # Generating outputs
-
+``
    - To get the outputs, run 'Outputs.R' script.
 
    - To get surface plots, run 'Finite_Sample.R', 'SurfaceFrame1.R' scripts and then run 'SurfaceFrame2.R' script
       Finally, run 'SurfacePlot.R' script.
 
    - Running 'MapPlot.R' produces two US maps with treated sites and untreated sites.
+``
