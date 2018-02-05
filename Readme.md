@@ -15,19 +15,18 @@ This geographical linkage yields an analysis data set consisting of 258 coal-fir
 For each power plant, we also obtain the annual average ambient PM2.5 concentration measured across all monitors within a 150km radius during 2005.  We similarly obtain average temperature and barometric pressure in the surrounding 150km area during 2005. 
 
 # MCMC running
+
     - Run 'MCMC.R' script for obtaining posterior samples.
-    - 'MCMCsamples.RData' includes all posterior samples
+    - 'MCMCsamples.RData' includes all posterior samples.
+    
 # Post-processing
+
    - To estimate the causal effects on mediators, run 'Postprocessing_Mediators.R' script.
-
    - To estimate the causal mediation effects, run 'Postprocessing_Effects.R' script.
-
    - To estimate the principal causal effects, run 'Postprocessing_PS.R' script.
 
 # Generating outputs
    - To get the outputs, run 'Outputs.R' script.
-
    - To get surface plots, run 'Finite_Sample.R', 'SurfaceFrame1.R' scripts and then run 'SurfaceFrame2.R' script
       Finally, run 'SurfacePlot.R' script.
-
    - Running 'MapPlot.R' produces two US maps with treated sites and untreated sites.
