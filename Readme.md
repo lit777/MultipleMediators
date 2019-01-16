@@ -16,8 +16,8 @@ For each power plant, we also obtain the annual average ambient PM2.5 concentrat
 
 # MCMC running
 
-    - Run 'MCMC.R' script for obtaining posterior samples.
-    - 'MCMCsamples.RData' includes all posterior samples.
+    - Run 'Model_BNP.R' script for obtaining posterior samples.
+    - 'MCMC.RData' includes all posterior samples.
     
 # Post-processing
 
