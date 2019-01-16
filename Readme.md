@@ -21,5 +21,5 @@ For each power plant, we also obtain the annual average ambient PM2.5 concentrat
    - To estimate the principal causal effects, run 'PCE_Summary.R' script.
 
 # Generating plots
-   - To get surface plots, run 'SurfaceFrame1.R', 'SurfaceFrame2.R', 'SurfacePlot.R' scripts sequentially.
+   - To get surface plots, run 'Plot_Surface1.R', 'Plot_Surface2.R', 'Plot_Surface3.R' scripts sequentially.
    - Running 'MapPlot.R' produces two US maps with treated sites and untreated sites.
