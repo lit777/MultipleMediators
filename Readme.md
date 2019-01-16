@@ -1,4 +1,4 @@
-# To link all different data sources together
+# Link all different data sources together
 
 'Master.RData' is the main dataset for the analysis, which links EGUs data to monitoring sites data.
 
