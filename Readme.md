@@ -22,4 +22,5 @@ For each power plant, we also obtain the annual average ambient PM2.5 concentrat
 
 # Generating plots
    - To get surface plots, run 'Plot_Surface1.R', 'Plot_Surface2.R', 'Plot_Surface3.R' scripts sequentially.
+   - To produce a plot of posterior distributions of mediation effects, run 'Plot_Mediation_Dist.R'.
    - Running 'MapPlot.R' produces two US maps with treated sites and untreated sites.
