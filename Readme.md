@@ -15,13 +15,11 @@ For each power plant, we also obtain the annual average ambient PM2.5 concentrat
     - Run 'Model_BNP.R' script for obtaining posterior samples.
     - 'MCMC.RData' includes all posterior samples.
     
-# Post-processing
+# Outputs
 
    - To estimate the causal mediation effects, run 'Mediation_Summary.R' script.
    - To estimate the principal causal effects, run 'PCE_Summary.R' script.
 
-# Generating outputs
-   - To get the outputs, run 'Outputs.R' script.
-   - To get surface plots, run 'Finite_Sample.R', 'SurfaceFrame1.R' scripts and then run 'SurfaceFrame2.R' script
-      Finally, run 'SurfacePlot.R' script.
+# Generating plots
+   - To get surface plots, run 'SurfaceFrame1.R', 'SurfaceFrame2.R', 'SurfacePlot.R' scripts sequentially.
    - Running 'MapPlot.R' produces two US maps with treated sites and untreated sites.
